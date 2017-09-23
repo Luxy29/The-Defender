@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TheDefender | Home</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">Admin</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Logout</a></li>
+</ul>
+  <nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">&nbsp; The Defender</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">YOUR_USERNAME<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <main class="main">
+    <div class="parallax-container">
+      <div class="parallax"><img src="https://wallpapercave.com/wp/LRxGqsU.jpg" alt=""></div>
+      <div class="container">
+      <img src="https://cdn.discordapp.com/avatars/358381507787620353/15b3e1452518f80c2cfc49f4a512737f.jpg" alt="" class="circle" id="avatar">
+      <h4 id="name">The Defender</h4>
+      <br>
+      <blockquote class="flow-text">
+        Here to defend us all.
+      </blockquote>
+      </div>
+    </div>
+  </main>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/materialize.js"></script>
+  <script>
+     $(document).ready(function(){
+         $('.parallax').parallax();
+     });
+  </script>
+</body>
+</html>

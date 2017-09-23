@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+  margin-bottom: 500px;
+}
+
+#avatar {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 30%;
+}
+
+#name {
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 25%;
+  font-family: 'Orbitron';
+  color: white;
+}
+
+blockquote {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 25%;
+}
